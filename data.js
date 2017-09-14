@@ -106,49 +106,20 @@ var lists = [
 		name: 'Partner Tools',
 		sections: [
 			{
-				'name': 'Transferwise',
+				'name': 'Prouction',
 				'links': [
 					{
 					'name': 'Demo Transferwise',
-					'url': 'http://demo.purplepay.crossborder.fedex.com/sprayground'
+					'url': 'http://crossborder.fedex.com/us/ecommerce/login.shtml'
 					}
 				]
 			},
 			{
-				'name': 'Demos',
+				'name': 'Test',
 				'links': [
 					{
-						'name': 'Overstock',
-						'url': 'http://demo.purplepay.crossborder.fedex.com/overstock-pro'
-					},
-					{
-						'name': 'Volcom',
-						'url': 'http://demo.purplepay.crossborder.fedex.com/volcom'
-					},
-					{
-						'name': 'Tory Burch',
-						'url': 'http://demo.purplepay.crossborder.fedex.com/toryburch'
-					}
-				]
-			},
-			{
-				'name': 'Testshops',
-				'links': [
-					{
-						'name': 'Ecommerce',
-						'url': 'http://purplepay.ecommerce.bongo1.com/testshop'
-					},
-					{
-						'name': 'Stage 1',
-						'url': 'http://purplepay.stage1.bongo1.com/testshop'
-					},
-					{
-						'name': 'Portals',
-						'url': 'http://purplepay.portals.bongo1.com/testshop'
-					},
-					{
-						'name': 'Production',
-						'url': 'https://purplepay.crossborder.fedex.com/testshop'
+						'name': 'Logistics',
+						'url': 'http://secure.logistics.bongo1.com/login-merchant'
 					}
 				]
 			}
@@ -158,26 +129,12 @@ var lists = [
 		name: 'Documentation',
 		sections: [
 			{
-				'name': 'Transferwise',
+				'name': 'Docs',
 				'links': [
-					'Demo Transferwise'
-				]
-			},
-			{
-				'name': 'Demos',
-				'links': [
-					'Overstock',
-					'Volcom',
-					'Brooks Brothers',
-					'Neiman Marcus'
-				]
-			},
-			{
-				'name': 'Testshop',
-				'links': [
-					'Ecommerce',
-					'Stage 1',
-					'Portals'
+					{
+						'name': 'Documentation Demo',
+						'url': 'https://fdx-ts-documentation.herokuapp.com/docs'
+					}
 				]
 			}
 		]
