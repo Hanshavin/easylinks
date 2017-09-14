@@ -4,6 +4,14 @@
 body, p
 	margin 0
 
+*::-webkit-scrollbar {
+	width: 6px !important;
+}
+
+*::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
 body
 	font-family: "Lato";
 	-webkit-font-smoothing: antialiased;
@@ -24,6 +32,7 @@ body:before
 	height: 100vh;
 	display flex
 	&-left
+		z-index 1
 		width: 280px;
 		background #f7f7f7
 		.header
@@ -70,31 +79,46 @@ body:before
 			margin 7px
 			padding 7px
 			overflow: auto;
-			.title
-				font-size 11px
-				background: rgba(71,143,138,0.75);
-				color: #fff;
-				padding: 3px 10px;
-				text-transform: uppercase;
-				letter-spacing: 1px;
-				display: inline-block;
-				border-radius 3px
-				margin-bottom 20px
+			.section
 				&:not(:first-child)
 					margin-top 40px
-			.links
-				.link
-					background: #fff;
-					height: 46px;
-					display flex
-					align-items center
-					font-size: 15px;
-					margin-bottom: 1px;
-					padding 14px
+				.title
+					font-size 11px
+					background: rgba(71,143,138,0.75);
+					color: #fff;
+					padding: 3px 10px;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					display: inline-block;
 					border-radius 3px
+					margin-bottom 20px
+				.links
+					.link
+						background: #fff;
+						height: 46px;
+						display flex
+						align-items center
+						font-size: 15px;
+						margin-bottom: 1px;
+						padding 14px
+						border-radius 3px
+						text-decoration none
+						color #262626
+
+.content-left.collapsed
+	width: 42px;
+	.list
+		.text
+			display none
 
 
-
+@media (max-width: 550px)
+	.content-right
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 42px;
 
 
 

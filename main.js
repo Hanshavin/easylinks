@@ -13,7 +13,8 @@ var app = new Vue({
   data: {
     lists: lists,
     current_pos: 0,
-    current_list: null
+    current_list: null,
+    collapsed: false
   },
 
 	created: function () {
@@ -31,7 +32,11 @@ var app = new Vue({
   		this.lists[pos].selected = true
   		this.current_pos = pos
   		this.current_list = this.lists[this.current_pos]
-  	}
+  	},
 
+    clickMenu () {
+      console.log('clickMenu!')
+      this.collapsed = !this.collapsed
+    }
   }
 })
