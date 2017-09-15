@@ -49,29 +49,15 @@ var lists = [
 					}
 				]
 			},
-			// {
-			// 	'name': 'Transferwise',
-			// 	'links': [
-			// 		'Demo Transferwise'
-			// 	]
-			// },
-			// {
-			// 	'name': 'Demos',
-			// 	'links': [
-			// 		'Overstock',
-			// 		'Volcom',
-			// 		'Brooks Brothers',
-			// 		'Neiman Marcus'
-			// 	]
-			// },
-			// {
-			// 	'name': 'Testshop',
-			// 	'links': [
-			// 		'Ecommerce',
-			// 		'Stage 1',
-			// 		'Portals'
-			// 	]
-			// }
+			{
+				'name': 'Design',
+				'links': [
+					{
+						'name': 'Design resources',
+						'url': 'https://drive.google.com/drive/u/0/folders/0B8udbfWgpBR9aV95WFdGN3ZZWm8'
+					}
+				]
+			}
 		]
 	},
 	{
@@ -92,6 +78,24 @@ var lists = [
 					{
 						'name': 'Test Monitoring',
 						'url': 'https://purplepay.crossborder.fedex.com/testMonitoring'
+					}
+				]
+			}
+		]
+	},
+	{
+		name: 'Magento',
+		sections: [
+			{
+				'name': 'Demos',
+				'links': [
+					{
+						'name': 'Demo storemg.bongo1',
+						'url': 'http://storemg.bongo1.com/'
+					},
+					{
+						'name': 'Demo storemg2.bongo1',
+						'url': 'http://storemg2.bongo1.com/'
 					}
 				]
 			}
@@ -129,24 +133,6 @@ var lists = [
 					{
 						'name': 'Documentation Demo',
 						'url': 'https://fdx-ts-documentation.herokuapp.com/docs'
-					}
-				]
-			}
-		]
-	},
-	{
-		name: 'Magento',
-		sections: [
-			{
-				'name': 'Demos',
-				'links': [
-					{
-						'name': 'Demo storemg.bongo1',
-						'url': 'http://storemg.bongo1.com/'
-					},
-					{
-						'name': 'Demo storemg2.bongo1',
-						'url': 'http://storemg2.bongo1.com/'
 					}
 				]
 			}

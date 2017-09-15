@@ -18,6 +18,12 @@ var app = new Vue({
   },
 
 	created: function () {
+    if(document.body.clientWidth <= 550) {
+      this.collapsed = true
+    } else {
+      this.collapsed = false
+    }
+
 		this.setPos(this.current_pos)
 	},
 
