@@ -84,6 +84,28 @@ var lists = [
 		]
 	},
 	{
+		name: 'Checkout API',
+		sections: [
+			{
+				'name': 'Documents',
+				'links': [
+					{
+						'name': 'Documentation',
+						'url': 'http://checkout.stage2.bongo1.com/v2/docs/index.html#http-basic-authentication'
+					},
+					{
+						'name': 'Swagger',
+						'url': 'https://app.swaggerhub.com/apis/roypalacios/Checkout/2.0.0'
+					},
+					{
+						'name': 'SOAP API',
+						'url': 'http://crossborder.fedex.com/us/ecommerce/api/'
+					},
+				]
+			}
+		]
+	},
+	{
 		name: 'Magento',
 		sections: [
 			{
