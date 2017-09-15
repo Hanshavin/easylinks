@@ -30,6 +30,9 @@ var app = new Vue({
   methods: {
 
   	selected (newPos) {
+      if(document.body.clientWidth <= 550) {
+        this.collapsed = true
+      }
   		this.setPos(newPos)
   	},
 
