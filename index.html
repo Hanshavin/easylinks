@@ -15,6 +15,12 @@
 					<icon-menu></icon-menu>
 				</div>
 			</header>
+
+			<div class="avatar">
+				<img class="logo" src="http://www.androidpolice.com/wp-content/uploads/2013/04/nexusae0_icon6.png">
+				<p class="text">Crossborder Urls & Demos</p>
+			</div>
+
 			<div class="lists">
 				<div class="list" v-for="(list, index) in lists" @click="selected(index)" v-bind:class="{'selected': list.selected}">
 				  <icon-inbox v-if="(index % 3 == 0)"></icon-inbox>

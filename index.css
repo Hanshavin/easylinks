@@ -44,6 +44,21 @@ body:before {
   margin: 13px 11px 12px 11px;
   cursor: pointer;
 }
+.content-left .avatar {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.content-left .avatar .logo {
+  width: 30px;
+  border-radius: 50%;
+  margin: 6px;
+}
+.content-left .avatar .text {
+  font-size: 15px;
+  color: #262626;
+  margin: 6px;
+}
 .content-left .lists .list {
   height: 38px;
   display: flex;
@@ -120,7 +135,7 @@ body:before {
 .content-left.collapsed {
   width: 42px;
 }
-.content-left.collapsed .list .text {
+.content-left.collapsed .text {
   display: none;
 }
 @media (max-width: 550px) {
