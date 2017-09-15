@@ -78,26 +78,21 @@ var lists = [
 		name: 'Monitoring',
 		sections: [
 			{
-				'name': 'Transferwise',
+				'name': 'Demo',
 				'links': [
-					'Demo Transferwise'
+					{
+						'name': 'Demo',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/sphero'
+					}
 				]
 			},
 			{
-				'name': 'Demos',
+				'name': 'Test',
 				'links': [
-					'Overstock',
-					'Volcom',
-					'Brooks Brothers',
-					'Neiman Marcus'
-				]
-			},
-			{
-				'name': 'Testshop',
-				'links': [
-					'Ecommerce',
-					'Stage 1',
-					'Portals'
+					{
+						'name': 'Test Monitoring',
+						'url': 'https://purplepay.crossborder.fedex.com/testMonitoring'
+					}
 				]
 			}
 		]
@@ -109,7 +104,7 @@ var lists = [
 				'name': 'Prouction',
 				'links': [
 					{
-					'name': 'Demo Transferwise',
+					'name': 'Production',
 					'url': 'http://crossborder.fedex.com/us/ecommerce/login.shtml'
 					}
 				]
@@ -134,6 +129,24 @@ var lists = [
 					{
 						'name': 'Documentation Demo',
 						'url': 'https://fdx-ts-documentation.herokuapp.com/docs'
+					}
+				]
+			}
+		]
+	},
+	{
+		name: 'Magento',
+		sections: [
+			{
+				'name': 'Demos',
+				'links': [
+					{
+						'name': 'Demo storemg.bongo1',
+						'url': 'http://storemg.bongo1.com/'
+					},
+					{
+						'name': 'Demo storemg2.bongo1',
+						'url': 'http://storemg2.bongo1.com/'
 					}
 				]
 			}
