@@ -17,7 +17,7 @@ var app = new Vue({
     lists: lists,
     current_pos: 0,
     current_list: null,
-    collapsed: false
+    collapsed: null
   },
 
 	created: function () {

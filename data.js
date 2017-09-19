@@ -12,11 +12,44 @@ var lists = [
 				]
 			},
 			{
-				'name': 'Demos',
+				'name': 'New Demos',
 				'links': [
 					{
 						'name': 'Overstock',
 						'url': 'http://demo.purplepay.crossborder.fedex.com/overstock-pro'
+					},
+					{
+						'name': 'Monster',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/monster'
+					}
+				]
+			},
+			{
+				'name': 'Demos',
+				'links': [
+					{
+						'name': 'Louis Vuitton',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/louisvuitton'
+					},
+					{
+						'name': 'Walmart',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/walmart'
+					},
+					{
+						'name': 'Illy',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/illy'
+					},
+					{
+						'name': 'Discountdance',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/discountdance'
+					},
+					{
+						'name': 'Ebay',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/ebay'
+					},
+					{
+						'name': 'Newegg',
+						'url': 'http://demo.purplepay.crossborder.fedex.com/newegg'
 					},
 					{
 						'name': 'Volcom',
